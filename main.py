@@ -1,5 +1,5 @@
 import random
-from languages import 
+from languages import *
 computer_choice = random.choice(['rock', 'paper', 'scissors'])
 user_choice = input("Entre ton choix (rock , paper , scissors) ").lower()
 if user_choice not in ['rock', 'paper', 'scissors' , 'r', 'p', 's','pierre', 'papier', 'ciseaux']:
